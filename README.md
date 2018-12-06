@@ -2,14 +2,14 @@
 
 ## Installation
 
-  npm install ds-bindings
+  npm install dispatch-science-wrapper
 
 ## API Overview
 
 Every resource is accessed via your `ds` instance:
 
 ```js
-var ds = require('ds-bindings')({authKey: '<YOUR BASIC AUTH KEY>', account: '<DASHBOARD>'});
+var ds = require('dispatch-science-wrapper')({authKey: '<YOUR BASIC AUTH KEY>', account: '<DASHBOARD>'});
 ```
 
 Every resource method returns a promise, so you don't have to use the regular callback. E.g.
